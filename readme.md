@@ -42,9 +42,9 @@ A doubly linked list manages the playlist using a head and current pointer. Song
 - 💻 Windows OS (required for ShellExecute)
 
 - 🌐 UTF-8 Encoding
-- Run this in CMD to support special characters:
+Run this in CMD to support special characters:
 
-- chcp 65001
+chcp 65001
 
 ## 🛠️ Modern g++ Compiler
 (MinGW / CodeBlocks / VSCode setups work great)
