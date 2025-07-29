@@ -42,7 +42,7 @@ A doubly linked list manages the playlist using a head and current pointer. Song
 - 💻 Windows OS (required for ShellExecute)
 
 - 🌐 UTF-8 Encoding
-  Run this in CMD to support special characters:
+- Run this in CMD to support special characters:
 
 - chcp 65001
 
@@ -59,7 +59,7 @@ music-player/
 - ├── main.cpp         🎯 Entry point + menu logic
 - ├── functions.h      🔧 Core functionalities (add/play/etc.)
 - ├── menu-ui.h        🎨 Terminal UI (colors, layout)
-- └── README.md        📘 Project details (this file)
+- ├── README.md        📘 Project details (this file)
 
 ## 🚀 Steps to Run
 
