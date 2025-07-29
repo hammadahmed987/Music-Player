@@ -2,6 +2,7 @@
 
 Welcome to the C++ Music Player, a fully functional terminal-based music player written entirely in pure C++. Designed with dynamic struct-based DSA (Doubly Linked List), it delivers an interactive and animated playlist experience—all within your terminal window! 💻🎶
 
+
 ## ✨ Features
 
 - 🎵 Add Songs: Dynamically add music to your playlist.
