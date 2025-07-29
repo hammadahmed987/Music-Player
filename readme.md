@@ -2,7 +2,6 @@
 
 Welcome to the C++ Music Player, a fully functional terminal-based music player written entirely in pure C++. Designed with dynamic struct-based DSA (Doubly Linked List), it delivers an interactive and animated playlist experience—all within your terminal window! 💻🎶
 
-
 ## ✨ Features
 
 - 🎵 Add Songs: Dynamically add music to your playlist.
@@ -43,9 +42,8 @@ A doubly linked list manages the playlist using a head and current pointer. Song
 - 💻 Windows OS (required for ShellExecute)
 
 - 🌐 UTF-8 Encoding
-- Run this in CMD to support special characters:
+  Run this in CMD to support special characters:
 
-- bash
 - chcp 65001
 
 ## 🛠️ Modern g++ Compiler
@@ -58,33 +56,34 @@ Have your .mp3, .mp4, .wav files ready!
 ## 📁 Project Structure
 
 music-player/
-├── main.cpp         🎯 Entry point + menu logic
-├── functions.h      🔧 Core functionalities (add/play/etc.)
-├── menu-ui.h        🎨 Terminal UI (colors, layout)
-└── README.md        📘 Project details (this file)
+- ├── main.cpp         🎯 Entry point + menu logic
+- ├── functions.h      🔧 Core functionalities (add/play/etc.)
+- ├── menu-ui.h        🎨 Terminal UI (colors, layout)
+- └── README.md        📘 Project details (this file)
 
 ## 🚀 Steps to Run
 
-1. 📦 Clone the Repository
+### 1. 📦 Clone the Repository
 
 - git clone https://github.com/your-username/music-player
 - cd music-player
 
-2. 🧪 Compile the Code
+### 2. 🧪 Compile the Code
 
 - g++ main.cpp -o main.exe
 
-3. ▶️ Run the Music Player
+### 3. ▶️ Run the Music Player
 
 - ./main.exe
   
-4. 🎶 Start Adding Songs
+### 4. 🎶 Start Adding Songs
 
 - Example path format:
 
 - C:\\Users\\YourName\\Music\\song1.mp3
 
-  
+
+
 Built with ❤️ using nothing but C++ and structs.
 
 Enjoy the rhythm in your terminal! 🎼🖥️
