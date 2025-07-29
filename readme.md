@@ -1,93 +1,89 @@
-🎧 C++ Music Player (Terminal-Based)
+# 🎧 C++ Music Player (Terminal-Based)
+
 Welcome to the C++ Music Player, a fully functional terminal-based music player written entirely in pure C++. Designed with dynamic struct-based DSA (Doubly Linked List), it delivers an interactive and animated playlist experience—all within your terminal window! 💻🎶
 
-✨ Features
-🎵 Add Songs: Dynamically add music to your playlist.
+##✨ Features
 
-📄 View Playlist: Check the list of added songs anytime.
+- 🎵 Add Songs: Dynamically add music to your playlist.
 
-▶️ Play Current Song: Instantly play the selected track.
+- 📄 View Playlist: Check the list of added songs anytime.
 
-⏭️ Next Song: Move forward in your playlist and play.
+- ▶️ Play Current Song: Instantly play the selected track.
 
-⏮️ Previous Song: Go back and play the previous track.
+- ⏭️ Next Song: Move forward in your playlist and play.
 
-🔁 Autoplay: Play all songs in sequence automatically.
+- ⏮️ Previous Song: Go back and play the previous track.
 
-🧠 Format Recognition: Supports .mp3, .mp4, .wav, etc.
+- 🔁 Autoplay: Play all songs in sequence automatically.
 
-🎨 Animated UI: Colorful, stylish terminal UI with cross-platform safety.
+- 🧠 Format Recognition: Supports .mp3, .mp4, .wav, etc.
 
-🧹 Memory-Safe: Destructor ensures clean memory release.
+- 🎨 Animated UI: Colorful, stylish terminal UI with cross-platform safety.
 
-⚙️ DSA-based Design: Built purely with structs—no classes!
+- 🧹 Memory-Safe: Destructor ensures clean memory release.
 
-🧠 How It Works
+- ⚙️ DSA-based Design: Built purely with structs—no classes!
+
+## 🧠 How It Works
+
 Each song is stored as a Song struct containing:
 
-title
+- title
 
-filepath
+- filepath
 
-*next
+- *next
 
-*prev
+- *prev
 
 A doubly linked list manages the playlist using a head and current pointer. Songs are played using Windows ShellExecute to open media files with your default system player.
 
-🔧 Requirements
-💻 Windows OS (required for ShellExecute)
+## 🔧 Requirements
+- 💻 Windows OS (required for ShellExecute)
 
-🌐 UTF-8 Encoding
-Run this in CMD to support special characters:
+- 🌐 UTF-8 Encoding
+- Run this in CMD to support special characters:
 
-bash
-Copy
-Edit
-chcp 65001
-🛠️ Modern g++ Compiler
+- bash
+- chcp 65001
+
+## 🛠️ Modern g++ Compiler
 (MinGW / CodeBlocks / VSCode setups work great)
 
-🎼 Media Files
+## 🎼 Media Files
+
 Have your .mp3, .mp4, .wav files ready!
 
-📁 Project Structure
-css
-Copy
-Edit
+##📁 Project Structure
+
 music-player/
 ├── main.cpp         🎯 Entry point + menu logic
 ├── functions.h      🔧 Core functionalities (add/play/etc.)
 ├── menu-ui.h        🎨 Terminal UI (colors, layout)
 └── README.md        📘 Project details (this file)
-🚀 Steps to Run
-📦 Clone the Repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/music-player
-cd music-player
-🧪 Compile the Code
+## 🚀 Steps to Run
 
-bash
-Copy
-Edit
-g++ main.cpp -o main.exe
-▶️ Run the Music Player
+1. 📦 Clone the Repository
 
-bash
-Copy
-Edit
-./main.exe
-🎶 Start Adding Songs
+- git clone https://github.com/your-username/music-player
+- cd music-player
 
-Example path format:
+2. 🧪 Compile the Code
 
-makefile
-Copy
-Edit
-C:\\Users\\YourName\\Music\\song1.mp3
+- g++ main.cpp -o main.exe
+
+3. ▶️ Run the Music Player
+
+- ./main.exe
+  
+4. 🎶 Start Adding Songs
+
+- Example path format:
+
+- C:\\Users\\YourName\\Music\\song1.mp3
+
+  
 Built with ❤️ using nothing but C++ and structs.
 
 Enjoy the rhythm in your terminal! 🎼🖥️
